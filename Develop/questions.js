@@ -32,7 +32,7 @@ module.exports = [
     {
         name: 'license',
         type: 'list',
-        choices: ['MIT', 'GPLv2', '	Apache', 'GPLv3'],
+        choices: ['MIT', 'GPLv2', 'Apache', 'GPLv3'],
         message: 'Please choose the type of license you would like to use for your project: '
     },
     {

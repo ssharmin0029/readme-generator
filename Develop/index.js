@@ -3,13 +3,12 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const questions = require('./questions.js');
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
-
+// Creates the README file
 const renderREADME = () => {
     
 };
 
+// Writes the README file
 inquirer.prompt(questions)
     .then(responses => {
         const README = renderREADME(responses);

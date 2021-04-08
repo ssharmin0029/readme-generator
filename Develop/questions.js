@@ -1,27 +1,48 @@
 module.exports = [
     {
-        name: '',
-        type: '',
-        message: ''
+        name: 'title',
+        type: 'input',
+        message: 'Please enter the title of your project: '
     },
     {
-        name: '',
-        type: '',
-        message: ''
+        name: 'description',
+        type: 'input',
+        message: 'Here enter a description of your project: '
     },
     {
-        name: '',
-        type: '',
-        message: ''
+        name: 'installation',
+        type: 'input',
+        message: 'Please provide instructions, telling other users how to install your project locally: '
     },
     {
-        name: '',
-        type: '',
-        message: ''
+        name: 'usage',
+        type: 'input',
+        message: 'Here direct users how to use your project after the installation: '
     },
     {
-        name: '',
-        type: '',
-        message: ''
+        name: 'contributing',
+        type: 'input',
+        message: 'Please enter contribution instructions for other repository contributors: '
+    },
+    {
+        name: 'test',
+        type: 'input',
+        message: 'Here give users explicit instructions on how to run necessary tests: '
+    },
+    {
+        name: 'license',
+        type: 'list',
+        choices: ['MIT', 'GPLv2', '	Apache', 'GPLv3'],
+        message: 'Please choose the type of license you would like to use for your project: '
+    },
+    {
+        name: 'username',
+        type: 'input',
+        message: 'Please enter your GitHub username: '
+    },
+    {
+        name: 'email',
+        type: 'input',
+        message: 'Please provide your email address: '
     }
 ];

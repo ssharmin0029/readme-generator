@@ -23,10 +23,10 @@ module.exports = [
     {
         name: 'contributing',
         type: 'input',
-        message: 'Please enter contribution instructions for other repository contributors: '
+        message: 'Please enter contribution guidelines for other repository contributors: '
     },
     {
-        name: 'test',
+        name: 'tests',
         type: 'input',
         message: 'Here give users explicit instructions on how to run necessary tests: '
     },

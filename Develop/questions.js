@@ -1,3 +1,4 @@
+// Exports an array of questions for user input
 module.exports = [
     {
         name: 'title',

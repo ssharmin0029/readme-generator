@@ -6,8 +6,14 @@ const questions = require('./questions.js');
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
 
-// TODO: Create a function to initialize app
-function init() {}
+const renderREADME = () => {
+    
+};
 
-// Function call to initialize app
-init();
+inquirer.prompt(questions)
+    .then(responses => {
+        const README = renderREADME(responses);
+        fs.writeFile('README.md', README, err => {
+            err ? console.error(err) : console.log('README.md has been generated successfully!')
+        });
+    });

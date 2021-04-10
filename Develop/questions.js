@@ -33,7 +33,7 @@ module.exports = [
     {
         name: 'license',
         type: 'list',
-        choices: ['MIT', 'GPLv2', 'Apache', 'GPLv3'],
+        choices: ['Apache', 'BSD 3-Clause License', 'GNU GPL v3', 'GNU AGPL v3', 'GNU LGPL v3', 'GNU FDL v1.3', 'IBM', 'ISC', 'MIT', 'Mozilla Public License 2.0'],
         message: 'Please choose the type of license you would like to use for your project: '
     },
     {

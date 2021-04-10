@@ -5,8 +5,8 @@ const questions = require('./questions.js');
 const badgesLicenses = require('./badgesLicenses');
 
 // Creates the README file
-const renderREADME = ({title, description, installation, usage, contributing, tests, license, username, email}, licenseChoice) => (
-`
+const renderREADME = ({title, description, installation, usage, contributing, tests, license, username, email}, licenseChoice) => (`
+
 # ${title}
 
 
@@ -48,10 +48,10 @@ ${license}
 
 ## Questions
 Please reach out to me with any queries, using either my GitHub Profile or Email (links) below: 
-[GitHub](https://www.github.com/${username})
-<a href="mailto:${email}" target="_blank">Email</a>
-`
-);
+[GitHub](https://github.com/${username})
+[Email](mailto:${email})
+
+`);
 
 // Chooses a license using switch statement 
 const licenseOptions = (choice) => {

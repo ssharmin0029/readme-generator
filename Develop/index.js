@@ -43,36 +43,36 @@ ${tests}
 
 
 ## License
-${license}
+Your project is covered under ${license}. Please click on the badge at the top of the README for more information.
 
 
 ## Questions
 Please reach out to me with any queries, using either my GitHub Profile or Email (links) below: 
-[GitHub](https://github.com/${username})
-[Email](mailto:${email})
+GitHub: [${username}](https://github.com/${username})
+Email: [${email}](mailto:${email})
 
 `);
 
 // Chooses a license using switch statement 
 const licenseOptions = (choice) => {
     switch(choice) {
-        case 'Apache':
+        case 'Apache License':
             return badgesLicenses.Apache;
         case 'BSD 3-Clause License':
             return badgesLicenses.BSD;
-        case 'GNU GPL v3':
+        case 'GNU GPL v3 License':
             return badgesLicenses.GPLv3;
-        case 'GNU AGPL v3':
+        case 'GNU AGPL v3 License':
             return badgesLicenses.AGPLv3;
-        case 'GNU LGPL v3':
+        case 'GNU LGPL v3 License':
             return badgesLicenses.LGPLv3;
-        case 'GNU FDL v1.3':
+        case 'GNU FDL v1.3 License':
             return badgesLicenses.FDL;
-        case 'IBM':
+        case 'IBM License':
             return badgesLicenses.IBM;
-        case 'ISC':
+        case 'ISC License':
             return badgesLicenses.ISC;
-        case 'MIT':
+        case 'MIT License':
             return badgesLicenses.MIT;
         case 'Mozilla Public License 2.0':
             return badgesLicenses.Mozilla;

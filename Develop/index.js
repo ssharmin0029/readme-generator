@@ -47,8 +47,8 @@ Your project is covered under ${license}. Please click on the badge at the top o
 
 
 ## Questions
-Please reach out to me with any queries, using either my GitHub Profile or Email (links) below: 
-GitHub: [${username}](https://github.com/${username})
+Please reach out to me with any queries, using either my GitHub Profile or Email (links) below:  
+GitHub: [${username}](https://github.com/${username})  
 Email: [${email}](mailto:${email})
 
 `);

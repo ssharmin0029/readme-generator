@@ -84,7 +84,7 @@ inquirer.prompt(questions)
     .then(responses => {
         const licenseResult = licenseOptions(responses.license);
         const README = renderREADME(responses, licenseResult);
-        fs.writeFile('Generate-README.md', README, err => {
+        fs.writeFile('Generated-README.md', README, err => {
             err ? console.error(err) : console.log('README.md has been generated successfully!')
         });
     });
